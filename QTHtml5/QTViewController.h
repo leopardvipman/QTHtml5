@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QTViewController : UIViewController<UIWebViewDelegate>
-{
-    UIWebView *webView;
-    UIActivityIndicatorView *activityIndicatorView;
-}
+@interface QTViewController : UIViewController
 
 @end
